@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.hiphopschool.presentation.Screen
+import com.example.hiphopschool.presentation.history_screen.HistoryScreen
 import com.example.hiphopschool.presentation.home_screen.HomeScreen
 import com.example.hiphopschool.presentation.ui.theme.HipHopSchoolTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -35,7 +36,7 @@ class MainActivity : ComponentActivity() {
                             )
                         }
                         composable(route = Screen.HistoryScreen.route){
-
+                            HistoryScreen()
                         }
                         composable(route = Screen.GOATScreen.route){
 

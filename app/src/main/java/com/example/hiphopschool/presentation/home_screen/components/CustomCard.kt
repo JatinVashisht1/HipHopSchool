@@ -1,8 +1,5 @@
 package com.example.hiphopschool.presentation.home_screen.components
 
-import android.app.Application
-import android.content.Context
-import android.widget.Toast
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,20 +15,24 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import com.example.hiphopschool.MainActivity
-import dagger.hilt.android.qualifiers.ApplicationContext
+import com.example.hiphopschool.presentation.Screen
 
 @Composable
 fun CustomCard(
     modifier: Modifier = Modifier,
     text: String,
-    application: MainActivity
-) {
+    application: MainActivity,
+    navController: NavHostController,
+
+    ) {
     Card(
         modifier = modifier
             .shadow(elevation = 4.dp, shape = RectangleShape, clip = true)
             .clickable {
-                       Toast.makeText(application, text, Toast.LENGTH_SHORT).show()
+                if(text == "History")
+                       navController.navigate(Screen.HistoryScreen.route)
             }
         ,
         backgroundColor = MaterialTheme.colors.primaryVariant

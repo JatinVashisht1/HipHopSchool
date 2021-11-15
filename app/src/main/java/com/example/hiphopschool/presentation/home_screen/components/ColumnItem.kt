@@ -4,13 +4,15 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
 import com.example.hiphopschool.MainActivity
 
 @Composable
 fun ColumnItem(
     textFirst: String,
     textSecond: String,
-    mainActivity: MainActivity
+    mainActivity: MainActivity,
+    navController: NavHostController
 ) {
     Row(
         modifier = Modifier
@@ -24,15 +26,17 @@ fun ColumnItem(
                 .fillMaxWidth(0.5f)
                 .height(200.dp)
                 .padding(4.dp),
-            application = mainActivity
+            application = mainActivity,
+            navController = navController
         )
         CustomCard(
-            text = textSecond,
             modifier = Modifier
                 .fillMaxWidth()
                 .height(200.dp)
                 .padding(4.dp),
-            application = mainActivity
+            text = textSecond,
+            application = mainActivity,
+            navController = navController
         )
     }
 }
