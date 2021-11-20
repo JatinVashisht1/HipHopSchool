@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.hiphopschool.MainActivity
 import com.example.hiphopschool.presentation.Screen
+import java.io.File
 
 @Composable
 fun CustomCard(
@@ -25,19 +26,36 @@ fun CustomCard(
     text: String,
     application: MainActivity,
     navController: NavHostController,
+) {
 
-    ) {
     Card(
         modifier = modifier
             .shadow(elevation = 4.dp, shape = RectangleShape, clip = true)
             .clickable {
-                if(text == "History")
-                       navController.navigate(Screen.HistoryScreen.route)
-            }
-        ,
+                when (text) {
+                    "History" -> {
+                        navController.navigate(Screen.HistoryScreen.route)
+                    }
+                    "Greatest of All Time" -> {
+                        navController.navigate(Screen.GOATScreen.route)
+                    }
+                    "Greatest Hits" -> {
+                        navController.navigate(Screen.GreatestHits.route)
+                    }
+                    "Beefs" -> {
+                        navController.navigate(Screen.BeefsScreen.route)
+                    }
+                    "Current Scenario" -> {
+                        navController.navigate(Screen.CurrentScenario.route)
+                    }
+                    "Major Years" -> {
+                        navController.navigate(Screen.MajorYears.route)
+                    }
+                }
+            },
         backgroundColor = MaterialTheme.colors.primaryVariant
     ) {
-        Column (verticalArrangement = Arrangement.Center){
+        Column(verticalArrangement = Arrangement.Center) {
             Text(
                 text = text,
                 style = MaterialTheme.typography.h6,
@@ -46,7 +64,9 @@ fun CustomCard(
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
                     .padding(16.dp)
+
             )
         }
     }
 }
+
