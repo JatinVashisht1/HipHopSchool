@@ -1,8 +1,5 @@
-package com.example.hiphopschool.presentation.beef
+package com.example.hiphopschool.presentation.best_albums
 
-import androidx.compose.animation.animateContentSize
-import androidx.compose.animation.core.tween
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,28 +10,24 @@ import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.hiphopschool.core.GenericScreen
+import com.example.hiphopschool.core.GenericSubHeading
 
 @Composable
-fun BeefScreen(
-    viewModel: BeefScreenViewModel = hiltViewModel()
+fun BestAlbum(
+    viewModel: BestAlbumViewModel = hiltViewModel()
 ) {
     val listState = rememberLazyListState()
-    val daqualText = viewModel.daquan.value
-    val complexText = viewModel.complex.value
-
+    val bestAlbumsHHGAText = viewModel.bestAlbumsHHGA.value
+    val bestAlbumOts = viewModel.bestAlbumOts.value
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(8.dp)
     ) {
         Card(
             modifier = Modifier
@@ -44,7 +37,7 @@ fun BeefScreen(
             LazyColumn(state = listState) {
                 item(1) {
                     Text(
-                        text = "Biggest Hip Hop Beefs",
+                        text = "Best Albums of Hip-Hop",
                         modifier = Modifier
                             .align(Alignment.CenterHorizontally)
                             .padding(8.dp),
@@ -52,11 +45,8 @@ fun BeefScreen(
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colors.primaryVariant
                     )
-
-                    GenericScreen(headLineText = "DAQUAN", bodyText = daqualText )
-                    GenericScreen(headLineText = "COMPLEX", bodyText = complexText )
-
-
+                    GenericScreen(headLineText = "Hip Hop Golden Age", bodyText = bestAlbumsHHGAText )
+                    GenericScreen(headLineText = "ONE37pm", bodyText = bestAlbumOts )
                 }
             }
         }

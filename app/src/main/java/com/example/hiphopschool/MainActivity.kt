@@ -12,6 +12,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.hiphopschool.presentation.Screen
 import com.example.hiphopschool.presentation.beef.BeefScreen
+import com.example.hiphopschool.presentation.best_albums.BestAlbum
 import com.example.hiphopschool.presentation.curent_scenario.CurrentScenario
 import com.example.hiphopschool.presentation.goat_screen.GoatScreen
 import com.example.hiphopschool.presentation.greatest_hits.GreatestHitsScreen
@@ -59,7 +60,7 @@ class MainActivity : ComponentActivity() {
                             MajorYearScreen()
                         }
                         composable(route = Screen.BestAlbums.route){
-
+                            BestAlbum()
                         }
                         composable(route = Screen.RandomFacts.route){
 

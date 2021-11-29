@@ -1,4 +1,4 @@
-package com.example.hiphopschool.presentation.history_screen.components
+package com.example.hiphopschool.core
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding

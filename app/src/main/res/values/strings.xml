@@ -90,4 +90,131 @@ On July 17, 2017, Forbes reported that hip-hop/R-n-B (which Nielsen SoundScan cl
         \n\n
 The online audio distribution platform SoundCloud played a massive role in the creation of various artists\' careers in the latter half of the 2010s. Mainstream acts to start on SoundCloud include Post Malone, Lil Uzi Vert, Russ, Bryson Tiller, Lil Xan, Lil Pump, Lil Peep, Lil Skies, Smokepurpp, Ski Mask the Slump God, XXXTentacion, Trippie Redd, Playboi Carti, YBN Nahmir, Tay-K, ZillaKami, Ugly God, NAV among others. These songs are usually closely related to trap, but have also been labeled separately as SoundCloud rap. They have been characterized as usually having moody, sad undertones, and usually feature lo-fi rough production. The genre has been met with much criticism for its low effort in lyrics and production, and the problematic nature of the artists to arise from it, such as Lil Peep\'s drug abuse that led to his death, the multiple assault charges to XXXTentacion, 6ix9ine pleading guilty to using a child in a sexual performance, and the murder charges on Tay-K.
     </string>
+
+    <string name = "disclaimer">
+
+    Now, this is quite subjective topic, as everyone got their own top 10s, top 5s and everyone is right in their own perspective.
+        \n
+    We cannot say that this list is correct and other is wrong. Some might be fond of beats, flow, etc. where as others may lean towards lyrics, rhymes more when they hear something.
+        So what we have done here is we have presented you some lists made by different websites and critics.
+    </string>
+
+    <string name="billboard">
+        1. The Notorious B.I.G\n
+        2. Jay Z\n
+        3. Eminem\n
+        4. Rakim\n
+        5. Nas\n
+        6. Andree 3000\n
+        7. Lauryn Hill\n
+        8. Ghostface Killah\n
+        9. Kendrick Lamar\n
+        10. Lil Wayne
+    </string>
+
+    <string name = "goliath">
+        1. Rakim\n2. The Notorious B.I.G\n3. Nas\n4. Jay-Z\n5. Tupac\n6. Eminem\n7. KRS-One\n8.Scarface\n9. Ice Cube\n10. Andre 3000
+    </string>
+
+    <string name = "soulinstereo">
+        1. The Notorious B.I.G\n2. Nas\n3. Jay Z\n4. 2pac\n5. Andre 3000\n6. Eminem\n7. Rakim\n8. Kendrick Lamar\n9. Ms. Lauryn Hill\n10. LL Cool J
+    </string>
+
+    <string name = "greatest_songs_rolling_stone">
+        1. Grandmaster Flash and the Furious Five, \'The Message\'\n\n
+        2. Sugarhill Gang, \'Rapper\'s Delight\'\n\n
+        3. Afrika Bambaataa &amp; the Soul Sonic Force, \'Planet Rock\'\n\n
+        4. Run-DMC, \'Sucker M.C.\'s\'\n\n
+        5. Geto Boys, \'Mind Playing Tricks on Me\'\n\n
+        6. Dr. Dre feat. Snoop Doggy Dogg, \'Nuthin\' But a G Thang\'\n\n
+        7. Public Enemy, \'Fight the Power\'\n\n
+        8. Notorious B.I.G., \'Juicy\'\n\n
+        9. N.W.A, \'Straight Outta Compton\'\n\n
+        10. Eric B. and Rakim, \'Paid in Full\'\n\n
+        11. Wu-Tang Clan, \'C.R.E.A.M.\'\n\n
+        12. Pete Rock and C.L. Smooth, \'They Reminisce Over You (T.R.O.Y.)\'\n\n
+        13. Doug E. Fresh and the Get Fresh Crew, \'La Di Da Di\'\n\n
+        14. Public Enemy, \'Rebel Without a Pause\'\n\n
+        15. N.W.A, \'Fuck tha Police\'
+    </string>
+
+    <string name = "greatest_songs_wam">
+    1. \'Tha Shiznit\' by Snoop Doggy Dogg\n\n
+        2. \'C.R.E.A.M.\' by Wu-Tang Clan\n\n
+        3. \'Bad and Boujee\' by Migos\n\n
+        4. \'Elevators (Me &amp; You)\' by Outkast\n\n
+        5. \'Bring the Pain\' by Method Man\n\n
+        6. \'Warning\' by The Notorious B.I.G.\n\n
+        7. \'Bodak Yellow\' by Cardi B\n\n
+        8. \'HUMBLE.\' by Kendrick Lamar\n\n
+        9. \'The Message\' by Nas\n\n
+        10. \'Ghetto Bird\' by Ice Cube\n\n
+        11. \'Damn It Feels Good To Be A Gangsta\' by Geto Boys\n\n
+        12. \'Alwayz Into Somethin\' by N.W.A.\n\n
+        13. \'Welcome to the Terrordome\' by Public Enemy\n\n
+        14. \'Pass the Mic (Remastered)\' by The Beastie Boys\n\n
+        15. \'Liquid Swords\' by Gza
+    </string>
+
+    <string name = "best_albums_hhga"><![CDATA[
+        1. Public Enemy - It Takes A Nation Of Millions To Hold Us Back (1988)\n\n
+        2. Nas - Illmatic (1994)\n\n
+        3. A Tribe Called Quest - The Low End Theory (1991)\n\n
+        4. Eric B & Rakim - Paid In Full (1987)\n\n
+        5. Madvillain – Madvillainy (2004)\n\n
+        6. Wu Tang Clan - Enter The Wu Tang (1993)\n\n
+        7. Ultramagnetic MCs - Critical Beatdown (1988)\n\n
+        8. A Tribe Called Quest - Midnight Marauders (1993)\n\n
+        9. Kendrick Lamar - To Pimp A Butterfly (2015)\n\n
+        10. Boogie Down Productions - Criminal Minded (1987)\n\n
+        11. De La Soul - 3 Feet High And Rising (1989)\n\n
+        12. Pete Rock & CL Smooth - Mecca And The Soul Brother (1992)\n\n
+        12. Pete Rock & CL Smooth - Mecca And The Soul Brother (1992)\n\n
+        14. Raekwon - Only Built For Cuban Linx… (1995)\n\n
+        15. Run The Jewels - Run The Jewels 2 (2014)\n\n
+    ]]></string>
+
+    <string name = "ots">
+        1. ‘The Miseducation of Lauryn Hill’ - Lauryn Hill\n\n
+        2. ‘Criminal Minded’ - Boogie Down Productions\n\n
+        3. ‘Only Built for Cuban Linx…’ - Raekwon\n\n
+        4. ‘Liquid Swords’ - GZA\n\n
+        5. ‘Raising Hell’ - Run DMC\n\n
+        6. ‘Get Rich Or Die Tryin’ - 50 Cent\n\n
+        7. ‘The Infamous’ - Mobb Deep\n\n
+        8. ‘3 Feet High and Rising’ - De La Soul\n\n
+        9. ‘The Marshal Mathers LP’ - Eminem\n\n
+        10. ‘Reasonable Doubt’ - Jay-Z\n\n
+        11. ‘Hard Core’ - Lil’ Kim\n\n
+        12. ‘The Blueprint’ - Jay-Z\n\n
+        13. ‘Paid in Full’ - Eric B &amp; Rakim\n\n
+        14. ‘It’s Dark and Hell Is Hot’ - DMX\n\n
+        15. ‘It Takes a Nation of Millions to Hold Us Back’ - Public Enemy
+    </string>
+
+    <string name = "beef_daquan">
+        1. Biggie vs. Tupac\n\n
+        2. Nas vs. Jay-Z\n\n
+        3. Ja Rule vs. 50 Cent\n\n
+        4. 50 Cent vs. The Game\n\n
+        5. Gucci Mane vs. Young Jeezy\n\n
+        6. NWA vs. Ice Cube\n\n
+        7. Boogie Down Productions vs. Juice Crew\n\n
+        8. Drake vs. Pusha T\n\n
+        9. Lil Kim vs. Foxy Brown\n\n
+        10. Drake vs. Meek
+    </string>
+
+    <string name = "beef_complex">
+        1. Tupac Shakur vs. The Notorious B.I.G.\n\n
+        2. Nas vs. Jay-Z\n\n
+        3. 50 Cent vs. Ja Rule\n\n
+        4. Drake vs. Meek Mill\n\n
+        5. N.W.A. vs. Ice Cube\n\n
+        6. 50 Cent vs. The Game\n\n
+        7. Cardi B vs. Nicki Minaj\n\n
+        8. Lil Wayne vs. Birdman\n\n
+        9. The Roxanne Wars\n\n
+        10. The Bridge Wars
+    </string>
 </resources>

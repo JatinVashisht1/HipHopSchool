@@ -51,6 +51,12 @@ fun CustomCard(
                     "Major Years" -> {
                         navController.navigate(Screen.MajorYears.route)
                     }
+                    "Best Albums" -> {
+                        navController.navigate(Screen.BestAlbums.route)
+                    }
+                    "Random Facts" -> {
+                        navController.navigate(Screen.RandomFacts.route)
+                    }
                 }
             },
         backgroundColor = MaterialTheme.colors.primaryVariant

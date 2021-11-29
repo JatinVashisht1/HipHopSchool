@@ -13,21 +13,23 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.hiphopschool.core.GenericScreen
 
 @Composable
 fun GreatestHitsScreen(
     viewModel: GreatestHitsViewModel = hiltViewModel()
 ) {
+
+    val greatestSongsRollingStoneText = viewModel.greatestSongsRollingStone.value
+    val greatesSongsWAM = viewModel.greatestSongsWAM.value
     Column(
         modifier = Modifier.fillMaxSize()
     ) {
-
-        val greatestHitsText = viewModel.greatestHits.value
-        val greatestHitsState = rememberSaveable { mutableStateOf(false) }
         Card(
             modifier = Modifier
                 .fillMaxWidth()
@@ -37,20 +39,18 @@ fun GreatestHitsScreen(
             LazyColumn() {
                 item(1) {
                     Text(
-                        text = "Greatest Hits",
-                        style = MaterialTheme.typography.h6,
-                        fontWeight = FontWeight.Bold,
+                        text = "Greatest Hip Hop Songs",
                         modifier = Modifier
-                            .padding(8.dp)
+                            .align(Alignment.CenterHorizontally)
+                            .padding(8.dp),
+                        style = MaterialTheme.typography.h4,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colors.primaryVariant
                     )
 
-                    if (greatestHitsState.value) {
-                        Text(
-                            text = greatestHitsText,
-                            style = MaterialTheme.typography.body1,
-                            fontWeight = FontWeight.SemiBold
-                        )
-                    }
+                    GenericScreen(headLineText = "Rolling Stone", bodyText = greatestSongsRollingStoneText)
+
+                    GenericScreen(headLineText = "Work and Money", bodyText = greatesSongsWAM)
                 }
             }
         }

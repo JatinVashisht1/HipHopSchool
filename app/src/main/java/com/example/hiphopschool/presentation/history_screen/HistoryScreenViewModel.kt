@@ -57,13 +57,4 @@ class HistoryScreenViewModel @Inject constructor(
 
     private val _innovation = mutableStateOf<String>(appContext.getString(R.string.innovation_and_revitalization))
     val innovation : State<String> = _innovation
-
-    private val _mumbleRap = mutableStateOf<String>(appContext.getString(R.string.mumble_rap))
-    val mumbleRap : State<String> = _mumbleRap
-
-    private val _ageOfStreaming = mutableStateOf<String> (appContext.getString(R.string.age_of_streaming))
-    val ageOfStreaming : State<String> = _ageOfStreaming
-
-
-
 }
