@@ -42,7 +42,7 @@ fun CurrentScenario(
             LazyColumn(state = listState) {
                 item(1) {
                     Text(
-                        text = "Best Albums of Hip-Hop",
+                        text = "Current Scenario",
                         modifier = Modifier
                             .align(Alignment.CenterHorizontally)
                             .padding(8.dp),

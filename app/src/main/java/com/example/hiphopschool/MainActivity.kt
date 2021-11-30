@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             HipHopSchoolTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.secondary) {
+                Surface(color = MaterialTheme.colors.primary) {
                     val navController: NavHostController = rememberNavController()
                     NavHost(
                         navController = navController,

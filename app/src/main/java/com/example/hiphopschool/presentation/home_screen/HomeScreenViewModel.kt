@@ -33,10 +33,7 @@ class HomeScreenViewModel @Inject constructor(
                 textFirst = "Beefs",
                 textSecond = "Current Scenario"
             )
-//            HSRowPairItem(
-//                textFirst = "Best Albums",
-//                textSecond = "Random Facts"
-//            )
+
         )
     )
     val topicListState : State<List<HSRowPairItem>> = _topicListState
@@ -57,7 +54,7 @@ class HomeScreenViewModel @Inject constructor(
         inputStream.read(buffer)
         inputStream.close()
         val json = String(buffer, Charsets.UTF_8)
-        val gson = Gson();
+        val gson = Gson()
         return gson.fromJson(json, Array<QuotesItem>::class.java)
     }
 
