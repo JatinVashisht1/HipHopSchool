@@ -20,6 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.hiphopschool.core.CustomBackground
 import com.example.hiphopschool.core.GenericScreen
 import com.example.hiphopschool.core.GenericSubHeading
 
@@ -39,6 +40,7 @@ fun CurrentScenario(
                 .fillMaxWidth()
                 .padding(8.dp)
         ) {
+            CustomBackground()
             LazyColumn(state = listState) {
                 item(1) {
                     Text(
@@ -51,8 +53,8 @@ fun CurrentScenario(
                         color = MaterialTheme.colors.primaryVariant
                     )
                     GenericSubHeading(text = "Trap and Mumble rap era")
-                    GenericScreen(headLineText = "Mumble Rap and Trap", bodyText = mumbleRapText )
-                    GenericScreen(headLineText = "Age of streaming", bodyText = ageOfStreamingText )
+                    GenericScreen(headLineText = "Mumble Rap and Trap", bodyText = mumbleRapText)
+                    GenericScreen(headLineText = "Age of streaming", bodyText = ageOfStreamingText)
                 }
             }
         }

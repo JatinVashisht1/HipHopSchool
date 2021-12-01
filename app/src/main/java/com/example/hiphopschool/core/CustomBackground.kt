@@ -1,4 +1,4 @@
-package com.example.hiphopschool.presentation.home_screen.components
+package com.example.hiphopschool.core
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize
@@ -14,12 +14,12 @@ fun CustomBackground() {
             .fillMaxSize()
     ) {
         val path = Path().apply {
-            this.moveTo((0.3f)*(size.width), 0f)
-            lineTo(size.width-0f, 0f)
+            this.moveTo((0.3f) * (size.width), 0f)
+            lineTo(size.width - 0f, 0f)
             lineTo(size.width, size.height)
             lineTo(0f, size.height)
             lineTo(0f, 0f)
-            lineTo(0f, (0.19f)*size.height)
+            lineTo(0f, (0.19f) * size.height)
             close()
         }
 

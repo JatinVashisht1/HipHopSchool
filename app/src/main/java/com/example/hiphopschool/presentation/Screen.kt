@@ -10,4 +10,5 @@ sealed class Screen(val route: String){
     object MajorYears : Screen("MajorYears")
     object RandomFacts : Screen("RandomFacts")
     object GreatestHits : Screen("GreatestHits")
+    object Credits : Screen("Credits")
 }
