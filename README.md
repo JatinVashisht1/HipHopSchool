@@ -1,6 +1,3 @@
-# HipHopSchool
-It is a fun project(android app), that contains everything about hip-hop.
-
 # Hip Hop School
 
 This is a fun project (android app).
