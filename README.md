@@ -3,7 +3,7 @@
 This is a fun project (android app).
 This app contains information about Hip Hop, like its history, beefs, etc.
 ## App Architecture
-An attempt to achieve clean architecture is used.
+An attempt to use clean architecture is done.
  - [To learn more about clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 
