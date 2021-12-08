@@ -12,6 +12,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -58,7 +59,7 @@ fun HistoryScreen(
                             .padding(8.dp),
                         style = MaterialTheme.typography.h4,
                         fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colors.primaryVariant
+                        color = Color.Yellow
                     )
 
                     GenericScreen(

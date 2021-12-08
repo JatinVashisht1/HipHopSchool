@@ -4,6 +4,7 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 
@@ -14,18 +15,18 @@ fun CustomBackground() {
             .fillMaxSize()
     ) {
         val path = Path().apply {
-            this.moveTo((0.3f) * (size.width), 0f)
+            this.moveTo(0f, 0f)
             lineTo(size.width - 0f, 0f)
             lineTo(size.width, size.height)
             lineTo(0f, size.height)
             lineTo(0f, 0f)
-            lineTo(0f, (0.19f) * size.height)
+            lineTo(0f, 0f)
             close()
         }
 
         drawPath(
             path = path,
-            color = Color(0xFF614185),
+            brush = Brush.linearGradient(colors = listOf(Color(0xFF2B6D79), Color(0xFFC41D74))),
         )
     }
 }

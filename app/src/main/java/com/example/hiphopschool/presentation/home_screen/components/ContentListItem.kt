@@ -7,13 +7,13 @@ import com.example.hiphopschool.MainActivity
 @Composable
 fun ContentListItem(
     hsRowPairItem: HSRowPairItem,
-    mainActivity: MainActivity,
+//    mainActivity: MainActivity,
     navController: NavHostController
 ) {
     ColumnItem(
         textFirst = hsRowPairItem.textFirst,
         textSecond = hsRowPairItem.textSecond,
-        mainActivity = mainActivity,
+//        mainActivity = mainActivity,
         navController = navController
     )
 }

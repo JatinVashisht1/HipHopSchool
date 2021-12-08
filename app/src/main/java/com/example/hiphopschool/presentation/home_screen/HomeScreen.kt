@@ -17,7 +17,7 @@ import com.example.hiphopschool.presentation.home_screen.components.QuoteCard
 fun HomeScreen(
     navController: NavHostController,
     viewModel: HomeScreenViewModel = hiltViewModel(),
-    mainActivity: MainActivity
+//    mainActivity: MainActivity
 ) {
     val contentItems = viewModel.topicListState.value
     val quote = viewModel.quote.value
@@ -32,7 +32,7 @@ fun HomeScreen(
             items(contentItems) { item ->
                 ContentListItem(
                     hsRowPairItem = item,
-                    mainActivity = mainActivity,
+//                    mainActivity = mainActivity,
                     navController = navController
                 )
             }
