@@ -16,11 +16,11 @@ An attempt to use clean architecture is done.
 
 | Background Gradient       | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Start | ![#2B6D79](https://via.placeholder.com/10/2B6D79?text=+) #2B6D79 |
-| End | ![#C41D74](https://via.placeholder.com/10/C41D74?text=+) #C41D74 |
+| Start | ![#103783](https://via.placeholder.com/10/103783?text=+) #103783 |
+| End | ![#9bafd9](https://via.placeholder.com/10/9bafd9?text=+) #9bafd9 |
 
 | Tile Gradient       | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Start | ![#275A29](https://via.placeholder.com/10/275A29?text=+) #275A29 |
-| End | ![#4CAF50](https://via.placeholder.com/10/4CAF50?text=+) #4CAF50 |
+| Start | ![#D31027](https://via.placeholder.com/10/D31027?text=+) #D31027 |
+| End | ![#EA384D](https://via.placeholder.com/10/EA384D?text=+) #EA384D |
 
